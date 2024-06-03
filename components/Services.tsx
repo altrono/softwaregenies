@@ -54,7 +54,7 @@ const Services = () => {
                     duration={Math.floor(Math.random() * 10000) + 10000}
                     className=" dark:bg-slate-900 text-black dark:text-white border-transparent dark:border-slate-80">
                     <div key={index} className={`p-6 ${service.bgColor} rounded-lg shadow-lg`}>
-                      <div className="flex items-center justify-center mb-4">
+                      <div className="flex items-center justify-center mb-4 max-w-[100px] max-h-[100px]">
                         {service.icon}
                       </div>
                       <h3 className="text-xl font-semibold text-neutral-500 mb-2 text-center">
