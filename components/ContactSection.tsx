@@ -35,7 +35,7 @@ const ContactSection = () => {
     <div className="flex flex-col md:flex-row mt-20 pt-20 container" id='contact'>
         <div className="flex-1">
             <h2 className="text-4xl">Empower your vision, <span className="text-orange-500">partner with us</span> today</h2>
-            <p>Let's build your website today!</p>
+            <p>Let&apos; s build your website today!</p>
             <p>Contact us and we will get back within 24 hours. We mean it. You saw the testimonials, right?</p>
             
         </div>

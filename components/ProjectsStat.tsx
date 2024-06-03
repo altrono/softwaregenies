@@ -30,7 +30,7 @@ const ProjectsStat = () => {
     <div className="flex flex-col  w-full bgOrange md:py-30 py-20">
         <div className='grid grid-cols-2  gap-4  lg:grid-cols-4 h-full  w-full'>
             {stats.map(item => (
-                <div className="flex flex-col justify-center items-center">
+                <div className="flex flex-col justify-center items-center" key={item.number}>
                     <div className="flex flex-row text-white items-center">
                         <h2 className='text-4xl md:text-6xl font-bold'>{item.number}</h2>
                         <p className=' text-lg text-neutral-200 font-bold text-center'>{item.sign}</p>

@@ -49,6 +49,7 @@ const Services = () => {
                 {services.map((service, index) => (
 
                   <Button 
+                    key={service.title}
                     borderRadius="1.75rem"
                     duration={Math.floor(Math.random() * 10000) + 10000}
                     className=" dark:bg-slate-900 text-black dark:text-white border-transparent dark:border-slate-80">
