@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   description: "At SoftwareGenies, we leverage cutting-edge technologies like Next.js, Reactjs, React Native, AWS, Vercel, Azure and Google Cloud to create innovative mobile and web applications that drive success. Join us on our journey to transform the digital landscape.",
   keywords: "SoftwareGenies, Reactjs, React Native, Vercel, Next.js, AWS,  Google Cloud, mobile app development, web app development, tech startup, innovation, digital transformation",
   icons: {
-    icon: '/icons/logo.svg'
+    icon: '/logo.png'
   }
 };
 
@@ -26,7 +26,7 @@ export default function RootLayout({
       <body className={`${source.className} antialiased`}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
+          defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
         >
