@@ -21,6 +21,7 @@ const WhyWorkWithUs = () => {
                 {features.map((feature, index) => (
 
                   <div
+                  key={index}
                     className=" dark:bg-slate-900 text-black dark:text-white border-transparent dark:border-slate-80 px-5 py-3 rounded-lg">
                     <div className="">
         
