@@ -84,7 +84,7 @@ const Partners = () => {
                     <p className='text-slate-900 text-sm lg:text-md'>We have years-long relationships with many of our clients. As trusted development partners, we take full ownership of the projects and continuously optimize apps, stores, websites, and implement new features, or automate workflows.</p>
                 </div>
                 <div className=" flex-1 ">
-                    <video  className="rounded-lg w-fill  h-full" autoPlay loop controls>
+                    <video  className="rounded-lg w-fill  h-full" autoPlay loop>
                         <source src='/vid.mp4' type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
