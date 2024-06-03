@@ -54,7 +54,7 @@ const Partners = () => {
                   </span>
               </h2> 
               
-              <p className='text-neutral-900 mx-auto my-4 text-sm text-left  sm:text-center max-w-[800px] px-10'>The technologies we use at SoftwareGenies are trusted and utilized by some of the world's leading companies, ensuring peerless perfomance, efficiency, robust and scalable solutions for our clients.</p>
+              <p className='text-neutral-900 mx-auto my-4 text-sm text-left  sm:text-center max-w-[800px] px-10'>The technologies we use at SoftwareGenies are trusted and utilized by some of the world&apos;s leading companies, ensuring peerless perfomance, efficiency, robust and scalable solutions for our clients.</p>
               
               <div className="w-full mt-5  px-4">
                 <MovingCards />
