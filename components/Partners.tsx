@@ -54,15 +54,15 @@ const Partners = () => {
                   </span>
               </h2> 
               
-              <p className='text-neutral-900 mx-auto my-4 text-sm text-center max-w-[800px] px-4'>The technologies we use at SoftwareGenies are trusted and utilized by some of the world's leading companies, ensuring peerless perfomance, efficiency, robust and scalable solutions for our clients.</p>
+              <p className='text-neutral-900 mx-auto my-4 text-sm text-left  sm:text-center max-w-[800px] px-10'>The technologies we use at SoftwareGenies are trusted and utilized by some of the world's leading companies, ensuring peerless perfomance, efficiency, robust and scalable solutions for our clients.</p>
               
               <div className="w-full mt-5  px-4">
                 <MovingCards />
               </div>
             </div>
-            <div className="container flex flex-col md:flex-row my-0 md:mt-10 w-full  gap-4 mx-auto  py-20 px-5 ">
+            <div className="container flex flex-col md:flex-row  md:mt-10 w-full  gap-4 mx-auto  py-5 lg:py-20 px-5 ">
                 <div className=" flex-1  px-3 py-10">
-                  <div className="flex gap-2 ">
+                  <div className="flex gap-2 flex-wrap ">
                     <span className="text-orange-500 bg-orange-100 rounded-full text-sm p-2  text-center h-8">
                       Starter
                     </span>
