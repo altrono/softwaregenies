@@ -4,6 +4,7 @@ import { NavItemsProps, navItems } from "@/constants";
 import Link from "next/link";
 import Drawer from "./Drawer";
 import { ModeToggle } from "./ModeToggle";
+import { NavMenu } from "./NavMenu";
 
 
 const Navbar = () => {
@@ -23,9 +24,13 @@ const Navbar = () => {
                             <span className="hidden sm:block text-sm sm:text-xl tracking-light">Softwaregenies</span>
                         </div>
                     </Link>
-                    <ul className="hidden lg:flex ml-14 space-x-12">
+                    {/* <ul className="hidden lg:flex ml-14 space-x-12">
                         {navItems.map((item: NavItemsProps, index: number) => (<Link className="hover:text-orange-500" key={item.label}  href={item.href}>{item.label}</Link>))}
-                    </ul>
+                    </ul> */}
+                    <div className="hidden lg:flex ml-14 space-x-12">
+                        <NavMenu />
+                    </div>
+                    
 
                     <div className=" justify-center  items-center">
                         

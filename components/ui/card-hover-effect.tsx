@@ -66,13 +66,13 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "rounded-2xl h-full w-full px-2 overflow-hidden bg-white shadow-sm   group-hover:border-orange-200 relative z-20",
+        "rounded-2xl h-full w-full px-2 overflow-hidden bg-gray-100 border shadow-sm relative z-20",
         className
       )}
     >
       <div className="relative z-50">
         <div className="p-4">
-          <Image src={image} width={100} height={50} alt="Partner logo"/>
+          <Image className="brightness-[1] invert-3" src={image} width={100} height={50} alt="Partner logo"/>
         </div>
       </div>
     </div>

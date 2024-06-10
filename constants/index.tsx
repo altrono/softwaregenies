@@ -28,9 +28,9 @@ export declare interface TestimonialsProps {
 
 export const navItems : NavItemsProps[] = [
   { label: "About", href: "#about" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "Workflow", href: "#workflow" },
+  { label: "My works", href: "#project" },
+  { label: "Testimonials", href: "#testimonials" },
 ];
 
 export const testimonials: TestimonialsProps[] = [

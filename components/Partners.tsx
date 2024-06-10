@@ -3,6 +3,7 @@ import { HoverEffect } from './ui/card-hover-effect';
 import { TypewriterEffect } from './ui/typewriter-effect';
 import MovingCards from './MovingCards';
 import { Rocket } from 'lucide-react';
+import CustomWave from './CustomWave';
 
 const Partners = () => {
   const words = [
@@ -35,28 +36,29 @@ const Partners = () => {
 
   ];
   return (
-    <div className="flex flex-col w-full bg-slate-100 ">
-       
-            <div className="mx-auto -mt-20 sm:-mt-16">
+    <div className="relative flex flex-col w-full bg-slate-900 shadow-t">
+            <CustomWave color='#020617' />
+          
+            <div className="mx-auto -mt-20 sm:-mt-16 z-10">
               
                 <h2 className='text-sm md:text-lg lg:text-lg text-center text-neutral-500 font-bold px-5'>We leverage cutting-edge technologies like:</h2>
                 <HoverEffect items={projects} />
             </div>
-            <div className="mt-16 w-full text-slate-900 text-center ">
+            <div className="mt-16 w-full text-slate-100 text-center z-20 ">
               
               <span className="bg-orange-100 text-orange-500 rounded-full h-6 text-sm font-medium px-2 py-1 uppercase">
                   Technologies
               </span>
-              <h2 className="text-2xl font-extrabold sm:text-5xl lg:text-6xl lg:mt-10 tracking-wide">
+              <h2 className="text-2xl font-extrabold sm:text-5xl lg:text-6xl mt-8 lg:mt-12 tracking-wide p-5">
               Trusted by Leading{" "}
                   <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
                   Companies
                   </span>
               </h2> 
               
-              <p className='text-neutral-900 mx-auto my-4 text-sm text-left  sm:text-center max-w-[800px] px-10'>The technologies we use at SoftwareGenies are trusted and utilized by some of the world&apos;s leading companies, ensuring peerless perfomance, efficiency, robust and scalable solutions for our clients.</p>
+              <p className='text-white mx-auto mt-4 text-sm text-left  sm:text-center max-w-[800px] px-5 '>The technologies we use at SoftwareGenies are trusted and utilized by some of the world&apos;s leading companies, ensuring peerless perfomance, efficiency, robust and scalable solutions for our clients.</p>
               
-              <div className="w-full mt-5  px-4">
+              <div className="w-full   px-4 mt-10">
                 <MovingCards />
               </div>
             </div>
@@ -80,18 +82,17 @@ const Partners = () => {
                     </span>
                   </div>
                     
-                    <h2 className='text-1xl lg:text-2xl font-bold text-slate-900 my-5'>Build like a <span className='text-orange-500'>Boss</span></h2>
-                    <p className='text-slate-900 text-sm lg:text-md'>We have years-long relationships with many of our clients. As trusted development partners, we take full ownership of the projects and continuously optimize apps, stores, websites, and implement new features, or automate workflows.</p>
+                    <h2 className='text-1xl lg:text-2xl font-bold text-slate-200 my-5'>Build like a <span className='text-orange-500'>Boss</span></h2>
+                    <p className='text-slate-200 text-sm lg:text-md'>We have years-long relationships with many of our clients. As trusted development partners, we take full ownership of the projects and continuously optimize apps, stores, websites, and implement new features, or automate workflows.</p>
                 </div>
                 <div className=" flex-1 ">
                     <video  className="rounded-lg w-fill  h-full" autoPlay loop>
-                        <source src='/vid.mp4' type="video/mp4"/>
+                        <source src='/video.mp4' type="video/mp4"/>
                         Your browser does not support the video tag.
                     </video>
                 </div>
             </div>
-      
-            
+               
             
     </div>
   )

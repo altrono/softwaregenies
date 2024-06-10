@@ -42,9 +42,8 @@ const MovingCards = () => {
     
   ];
   return (
-    <div className=" md:mt-10 rounded-md flex flex-col antialiased   items-center justify-center relative overflow-hidden px-2 bg-transparent">
-         <InfiniteMovingCards items={testimonials} direction='right' speed='slow' /> 
-    </div>
+       <InfiniteMovingCards items={testimonials} direction='right' speed='slow' /> 
+  
   )
 }
 
