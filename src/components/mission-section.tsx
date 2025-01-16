@@ -37,7 +37,7 @@ export function MissionSection() {
               Achieving Success Together
               </h2>
               <p className="text-gray-400 mb-2">
-              At <span className="text-purple-500 text-xl font-bold tracking-widest leading-[2rem]">Vexel</span>, We believe in building long-term relationships, not just completing projects. Our goal is to help your business scale and succeed by providing the digital tools and expertise you need to stay competitive in the fast-evolving tech world. With our focus on results-driven solutions, you can trust us to deliver measurable growth and tangible outcomes.
+              At <span className="text-purple-500 text-xl font-bold tracking-widest leading-[2rem]">Softwaregenies.online</span>, We believe in building long-term relationships, not just completing projects. Our goal is to help your business scale and succeed by providing the digital tools and expertise you need to stay competitive in the fast-evolving tech world. With our focus on results-driven solutions, you can trust us to deliver measurable growth and tangible outcomes.
               </p>
               <p className="text-gray-400 mb-1 text-left">
               How We Help You Succeed:
