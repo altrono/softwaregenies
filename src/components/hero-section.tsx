@@ -16,7 +16,7 @@ export function HeroSection() {
           <h1 className="text-3xl lg:text-6xl xl:text-7xl font-bold m-4 text-center tracking-tight text-white/80">
           Transform Your Business <br />with Cutting-Edge <br />  Digital Solutions
           </h1>
-          <p className="my-8 px-8 md:px-0 mx-auto m-w-10 text-center mb-8 text-md md:text-3xl lg:text-3xl max-w-4xl  text-slate-400 ">
+          <p className="my-8 px-8 md:px-0 mx-auto  text-center mb-8 text-md md:text-3xl lg:text-3xl max-w-4xl  text-slate-400 ">
           SEO Optimization, AI-driven Saas Applications,  Ready-to-Use Templates, and Custom Web & Mobile Development.
           </p>
           <div className="flex flex-col sm:flex-row  max-w-md mx-auto">
