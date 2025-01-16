@@ -20,7 +20,7 @@ export function HeroSection() {
           SEO Optimization, AI-driven Saas Applications,  Ready-to-Use Templates, and Custom Web & Mobile Development.
           </p>
           <div className="flex flex-col sm:flex-row  max-w-md mx-auto">
-            <Button className="bg-purple-600 text-white hover:bg-purple-700 -ml-2 rounded-md mx-auto">
+            <Button className="bg-gradient-to-tr from-purple-800 to-purple-100 text-white hover:to-purple-900 hover:from-purple-200 -ml-2 rounded-md mx-auto transition-colors duration-500">
             Request a Free Consultation
               <span className="ml-2">→</span>
             </Button>

@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Facebook, Twitter, Instagram, Linkedin } from 'lucide-react'
+import Image from "next/image"
 
 export function Footer() {
   return (
@@ -8,8 +9,8 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div>
             <Link href="/" className="flex items-center space-x-2 mb-6">
-              <div className="h-8 w-8 bg-purple-600 rounded-lg" />
-              <span className="text-2xl font-bold text-white">Ovaxo</span>
+              <Image src={'/lolenga.png'} alt="logo" width={35} height={32} />
+              <span className="text-2xl font-bold text-white">Softwaregenies</span>
             </Link>
             <p className="text-sm">
               Empowering businesses with professional remote team solutions for sustainable growth and success.
@@ -51,7 +52,7 @@ export function Footer() {
           </div>
         </div>
         <div className="border-t border-gray-800 mt-12 pt-8 text-sm text-center">
-          <p>&copy; 2025 Ovaxo. All rights reserved.</p>
+          <p className="text-md font-bold">&copy; 2025 Softwaregenies.<span className="text-purple-500 text-md font-bold">online</span> . All rights reserved.</p>
         </div>
       </div>
     </footer>
