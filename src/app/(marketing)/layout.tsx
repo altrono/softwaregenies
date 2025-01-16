@@ -1,8 +1,7 @@
 import { SiteHeader } from "@/components/marketing/site-header"
 import { Footer } from "@/components/marketing/footer"
 import { ScrollToTop } from "@/components/marketing/scroll-to-top"
-import { Suspense } from 'react'
-import { LoadingSpinner } from "@/components/marketing/loading-spinner"
+
 
 export default function MarketingLayout({
   children,
