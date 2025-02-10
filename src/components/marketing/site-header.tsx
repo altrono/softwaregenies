@@ -43,7 +43,7 @@ export function SiteHeader() {
             <span className={`text-2xl font-bold transition-colors duration-300 ${
               isScrolled ? 'text-foreground' : 'text-white dark:text-white'
             }`}>
-              DigitDrip
+              Softwaregenies.online
             </span>
           </Link>
 

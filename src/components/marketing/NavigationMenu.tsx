@@ -63,7 +63,7 @@ export function NavigationMenuDemo() {
       <NavigationMenuList>
       <NavigationMenuItem>
           <Link href="/" legacyBehavior passHref>
-            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${pathname === '/' && 'text-purple-500 font-bold'}`} >
+            <NavigationMenuLink className={`${navigationMenuTriggerStyle()} ${pathname === '/' && 'text-gray-200 font-bold'}`} >
               Home
             </NavigationMenuLink>
           </Link>
